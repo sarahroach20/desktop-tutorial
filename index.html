@@ -62,14 +62,25 @@
 				padding: 5px 5px; 
 				text-align: center;
 								
+			
 			}
-			p.round2 {
-  				border: 1px solid red;
- 				border-radius: 2px;
-  				padding: 5px;
-  				background: #bbb;
-				border-width: 25px 140px 4px 5px;
-			}
+			#contentArea {
+         			height: 100px;
+         			width: 80px;
+         			position: relative;
+         			background: #3beadc;
+         			padding:5px;
+        		}
+
+       			#border  {
+         			border-left: 2px solid #f51c40;
+         			position: absolute;
+         			top: 10px;
+         			bottom: 10px;
+         			left:0px;
+				border-radius: 5px;
+				background: #bbb;
+      			}
 	
 		</style>
 	</head>
@@ -82,7 +93,7 @@
   		<p id="third">Cartographer & GIS Professional</p>
 		</div>
 	
-		<p class="round2" id="third">About Me</p>
+		<p id="border" id="third">About Me</p>
 		<p id="first">This is the second paragraph!</p>
 		<p id="first">And here's a third one!</p>
         </div>
