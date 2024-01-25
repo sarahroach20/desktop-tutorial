@@ -120,7 +120,7 @@
 				left: 10%;
 			}
 			* {box-sizing: border-box}
-			.mySlides1, .mySlides2, {display: none}
+			.mySlides1, .mySlides2 {display: none}
 			img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -195,7 +195,7 @@
         </div>
 				
 		<p id="fourth">This is the fifth paragraph!</p>
-</div>
+	</div>
 		
 		<div id="contentArea2">
              <p class="round6" id="third">Proj 4</p> 
@@ -205,42 +205,42 @@
 	 			
 	</div>
 		
-<p>Slideshow 1:</p>
-<div class="slideshow-container">
-  <div class="mySlides1">
-    <img src="tablet1-01.png" style="width:100%">
-  </div>
 
-  <div class="mySlides1">
-    <img src="tablet2-01.png" style="width:100%">
-  </div>
+		<div class="slideshow-container">
+  		<div class="mySlides1">
+    		<img src="tablet1-01.png" style="width:100%">
+  	</div>
 
-  <div class="mySlides1">
-    <img src="tablet3-01.png" style="width:100%">
-  </div>
+ 		<div class="mySlides1">
+    		<img src="tablet2-01.png" style="width:100%">
+  	</div>
 
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-</div>
+  		<div class="mySlides1">
+    		<img src="tablet3-01.png" style="width:100%">
+ 	</div>
 
-<p>Slideshow 2:</p>
-<div class="slideshow-container">
-  <div class="mySlides2">
-    <img src="lansdowne-01.png" style="width:100%">
-  </div>
+  		<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+	</div>
 
-  <div class="mySlides2">
-    <img src="waterford-01.png" style="width:100%">
-  </div>
 
-  <div class="mySlides2">
-    <img src="beaumont-01.png" style="width:100%">
-  </div>
+		<div class="slideshow-container">
+  		<div class="mySlides2">
+    		<img src="lansdowne-01.png" style="width:100%">
+  	</div>
 
-  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  		<div class="mySlides2">
+    		<img src="waterford-01.png" style="width:100%">
+  	</div>
+
+  		<div class="mySlides2">
+    		<img src="beaumont-01.png" style="width:100%">
+  	</div>
+
+  		<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
  
-</div>
+	</div>
 
 </div>
 	<script>
@@ -270,7 +270,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-<script>
+
 		let slideIndex = [1,1];
 let slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
