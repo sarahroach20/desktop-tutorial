@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>CSS ID Selector</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-    		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Beth+Ellen">
-		
-		<style>	
-			* {box-sizing: border-box}
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;}
 
@@ -44,254 +41,13 @@ img {vertical-align: middle;}
   background-color: #f1f1f1;
   color: black;
 }
-			* {
-    				margin: 0;
-    				padding: 0;
-				}
+</style>
+</head>
+<body>
 
-		
-			div {
-   			 	width: 100%;
-			    	height: 100%;
-   				display: flex;
-		    		align-items:center;
-    				justify-content: center;
-			}
-			body {
- 				background-color: #FAFAFA;
-				height: 100vh;
-    				width: 100vw;
-			}
-
-			p {
-				font-family: 'Archivo Narrow'; serif;
-        			font-size: 30px;
-				color: #565656;
-				padding: 10px 30px;
-			}
-
-			#first {
-				font-family:'Archivo Narrow', serif;
-				font-size: 30px;
-				text-align: left;
-				color: #565656;
-			}
-
-			#second{
-				text-align: center;
-				font-family: 'Beth Ellen', serif;
-        			font-size: 90px;
-				text-shadow: 9px 9px 9px #bbb;
-				font-weight: 700;
-				color: #565656;
-				
-			}
-
-			#third {
-				font-family:'Archivo Narrow', serif;
-				font-size: 30px;
-				font-weight: 700;
-				text-align: center;
-				color: #565656;
-			}
-			#fourth {
-				text-align: center;
-				color: #565656;
-			}
-			#fifth {
-				font-family:'Archivo Narrow', serif;
-				font-size: 30px;
-				text-align: left;
-				color: #565656;
-			}
-			.image-container {
-				position: relative;
-				display: inline-block;
-			}
-  
-			.image-container img {
-				display: block;
-				width: 100%;
-				height: 50%;
-			}
-  
-			.overlay-text {
-				position: absolute;
-				top: 25%;
-				left: 50%;
-				transform: translate(-50%, -50%); 
-				color: #565656; 
-				padding: 5px 5px; 
-				text-align: center;
-								
-			}
-			#contentArea {
-         			height: 70px;
-         			width: 170px;
-         			position: relative;
-				left: 44.5%;
-        		}
-			#contentArea2 {
-         			height: 70px;
-         			width: 270px;
-         			position: relative;
-         			left: 42%;
-				
-        		}
-			p.round2 {
-  				border-style: hidden;
- 				border-radius: 20px;
-  				background: #EBE1E7;
-				border-width: 35px 15px;
-			}
-			p.round3 {
-  				border-style: hidden;
- 				border-radius: 20px;
-  				background: #EBE3D3;
-				border-width: 35px 15px;
-			}
-			p.round4 {
-  				border-style: hidden;
- 				border-radius: 20px;
-  				background: #DAE1EB;
-				border-width: 35px 15px;
-			}
-			p.round5 {
-  				border-style: hidden;
- 				border-radius: 20px;
-  				background: #DDEBCF;
-				border-width: 35px 15px;
-			}
-			p.round6 {
-  				border-style: hidden;
- 				border-radius: 20px;
-  				background: #E0DEEB;
-				border-width: 35px 15px;
-			}
-			#storymapsettings {
-  	    			position: relative;
-				left: 10%;
-			}
-			* {box-sizing: border-box}
-.mySlides1, .mySlides2 {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a grey background color */
-.prev:hover, .next:hover {
-  background-color: #bbb;
-  color: black;
-}
-		</style>
-	</head>
-	<body>
-
-		<div class="image-container">
-            <img src="bannerfilter.jpg" alt="image">
-            <div class="overlay-text">
-	    	<p id="second">Sarah Roach</p>
-  		<p id="third">Cartographer & GIS Professional</p>
-		</div>
-		<div id="contentArea">
-             <p class="round2" id="third">About Me</p> 
-         
-	</div>
-		
-		<p id="fourth">This is the second paragraph!</p>
-			<h2 style="text-align:center">Multiple Slideshows</h2>
+<h2 style="text-align:center">Multiple Slideshows</h2>
 
 <p>Slideshow 1:</p>
-<div class="slideshow-container">
-  <div class="mySlides1">
-    <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides1">
-    <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides1">
-    <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-</div>
-
-
-		<div id="contentArea2">
-             <p class="round3" id="third">Proj 1</p> 
-         	
-	</div>
-		</div>
-		<p id="fourth">This is the third paragraph!</p>
-		<p>Slideshow 2:</p>
-<div class="slideshow-container">
-  <div class="mySlides2">
-    <img src="https://www.w3schools.com/howto/img_band_chicago.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides2">
-    <img src="https://www.w3schools.com/howto/img_band_la.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides2">
-    <img src="https://www.w3schools.com/howto/img_band_ny.jpg" style="width:100%">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-</div>
-		<div id="contentArea2">
-             <p class="round4" id="third">Proj 2</p> 
-	        	
-	</div>
-		
-		<p id="fourth">This is the fourth paragraph!</p>
-	</div>
-		
-	</div>
-		<div id="contentArea2">
-             <p class="round5" id="third">Proj 3</p> 
-        </div>
-				
-		<p id="fourth">This is the fifth paragraph!</p>
-		<div id="contentArea2">
-             <p class="round6" id="third">Proj 4</p> 
-        </div>
-		<p id="fourth">This is the sixth paragraph!</p>
-		</div>
-	 			
-	</div>
-		
 <div class="slideshow-container">
   <div class="mySlides1">
     <img src="tablet1-01.png" style="width:100%">
@@ -309,24 +65,25 @@ img {vertical-align: middle;}
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 
-
+<p>Slideshow 2:</p>
 <div class="slideshow-container">
   <div class="mySlides2">
-    <img src="downtown-01-01.png" style="width:100%">
+    <img src="nbhd134-01-01.png" style="width:100%">
   </div>
 
   <div class="mySlides2">
-    <img src="beaumont-01.png" style="width:100%">
+    <img src="nbhd71-01.png" style="width:100%">
   </div>
 
   <div class="mySlides2">
-    <img src="waterford-01.png" style="width:100%">
+    <img src="nbhd188-01.png" style="width:100%">
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
-	<script>
+
+<script>
 let slideIndex = [1,1];
 let slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
@@ -345,6 +102,9 @@ function showSlides(n, no) {
      x[i].style.display = "none";  
   }
   x[slideIndex[no]-1].style.display = "block";  
+}
 </script>
-	</body>
-</html>
+
+</body>
+</html> 
+
