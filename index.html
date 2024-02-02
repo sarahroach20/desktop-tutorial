@@ -6,6 +6,44 @@
     		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Beth+Ellen">
 		
 		<style>	
+			* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
 			* {
     				margin: 0;
     				padding: 0;
@@ -188,12 +226,50 @@ img {vertical-align: middle;}
 	</div>
 		
 		<p id="fourth">This is the second paragraph!</p>
+			<h2 style="text-align:center">Multiple Slideshows</h2>
+
+<p>Slideshow 1:</p>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+
 		<div id="contentArea2">
              <p class="round3" id="third">Proj 1</p> 
          	
 	</div>
 		</div>
 		<p id="fourth">This is the third paragraph!</p>
+		<p>Slideshow 2:</p>
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="https://www.w3schools.com/howto/img_band_chicago.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="https://www.w3schools.com/howto/img_band_la.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="https://www.w3schools.com/howto/img_band_ny.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
 		<div id="contentArea2">
              <p class="round4" id="third">Proj 2</p> 
 	        	
